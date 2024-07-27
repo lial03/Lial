@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>About Us - Photography Website</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/30ad5f6e47.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+      *{
+        padding:0;
+        margin:0;
+        box-sizing: border-box;
+        font-family: Georgia, 'Times New Roman';
+      }
+      body{
+        line-height: 50px;
+      }
+      img{
+        width:100%;
+        display:block;
+      }
+      ul li{
+        list-style: none;
+      }
+      a{
+        text-decoration: none;
+        color:#111;
+      }
+      h2,h3,p{
+        margin: 15px 0;
+      }
+      .flex{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .header{
+        background: linear-gradient(rgba(89, 89, 93,0.9),rgba(89, 89, 93,0.9)),url(main-qimg-d77cae82f531b635eb87835bb8bad621-lq.jpeg) no-repeat center/cover;
+        color:#111;
+      }
+
+      .about-content img{
+        width:300px;
+        height:300px;
+        border-radius: 50%;
+        margin:0 auto;
+      }
+
+      .about-content h2{
+        text-align: center;
+        font-size: 48px;
+        font-weight: 400px;
+        color:#111;
+        text-shadow:darkslategray 3px 3px 3px;
+        margin: 35px;
+      }
+      .about-content h3{
+        font-size: 30px;
+        font-weight:100;
+        background: rgba(255,255,255,0.1);
+        width:500px;
+        margin: 35px auto;
+        text-align: center;
+      }
+      blockquote{
+        font-size: 35px;
+        font-weight: 400;
+        width: 60vw;
+        margin: 45px auto ;
+        text-align: center;
+      }
+      blockquote span{
+        font-size: 25px;
+        text-transform: uppercase;
+        font-weight: 400;
+        display: block;
+      }
+      .social-icons{
+        width:350px;
+        margin:40px auto;
+        padding-bottom: 30px;
+      }
+      .social-icons ul a{
+        color:#fff;
+        font-size: 30px;
+        display: block;
+        width: 50px;
+        height: 50px;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .social-icons ul{
+        display: flex;
+        justify-content: space-around;
+      }
+      .section-one{
+        justify-content: center;
+      }
+
+      .sec-one-1{
+        display:block;
+        padding: 30px;
+
+      }
+      .sec-one-1 h3{
+        text-align: center;
+        font-size: 30px;
+        color:#A04000;
+      }
+      
+      .sec-one-1 p{
+        padding:30px;
+        font-weight: 300;
+        font-size: 25px;
+      }
+      .sec-one-2 h3{
+        text-align: center;
+        font-size: 30px;
+        color:#A04000;
+      }
+      .sec-one-2 p{
+        display: block;
+        font-weight: 300;
+        text-align:justify;
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: 25px;
+      }
+      .sec-one-2 a{
+        text-align: center;
+      }
+      .sec-one-2 h2{
+        text-align: center;
+      }
+      .work-imgs{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 10px;
+      }
+
+      .section-two{
+        margin: 40px 0;
+        margin-bottom: 0;
+      }
+      .section-two h2{
+        text-align: center;
+        font-size: 40px;
+        color:#A04000;
+      }
+      .section-two span{
+        text-align: center;
+        display: block;
+        font-size: 25px;
+
+      }
+      .insta-imgs{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+      }
+      .insta-imgs >div{
+        position:relative;
+      }
+      .icon-overlay{
+        position: absolute;
+        color: #fff;
+        top:0;
+        left:0;
+        width: 100%;
+        height: 100%;
+        font-size: 50px;
+        transition: var(--transition);
+      }
+      footer{
+        padding:5px;
+      }
+      .navbar{
+        padding:5px;
+      }
+    </style>
+  </head>
+
+  <body>  
+    <div class="navbar">
+      <div class="max-width">
+          <div class="logo">
+              <a href="index.html">
+                  <i class="fa fa-camera"></i>
+                  <span>Legendary Studioz</span></a>
+          </div>
+          <ul class="menu">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="booking.html">Booking</a></li>
+              <li><a href="testimonials.html">Testimonials</a></li>
+              <li><a href="contacts.html">Contacts</a></li>
+          </ul>
+      </div>
+    </div>
+    <section class="header">
+      <div class="about">
+        <div class="about-content">
+          <div class="about-img">
+            <img src="pexels-prota-352894.jpg" alt="Jules Mugabo">
+          </div>
+          <h2>Jules Mugabo</h2>
+          <h3>Photographer</h3>
+          <blockquote>
+            A great photograph is one that fully expresses what one feels, in the deepest sense, about what
+            is being photographed.
+            <span>-Ansel Adams</span>
+          </blockquote>
+        </div>
+        <div class="social-icons">
+          <ul>
+            <li><a href="https://www.instagram.com/julesmugabo_" id="ig"><i class="fa fa-instagram"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </section> 
+
+    <div class="section-one">
+        <div class="sec-one-1">
+            <h3>Background</h3>
+            <p>Jules Mugabo is an aspiring photographer based in Kigali,Rwanda. He has n keen eye for details and his passion enables him to capture pics that are natural and aesthetic.
+              His interpersonal and communication skills help in the interaction with his clients and therefore their needs and preferences are taken
+              into much consideration. Jules Mugabo's artistic skills also enabled him to have his own studio "Legendary Studioz".
+            </p>
+        </div>
+
+        <div class="sec-one-2">
+            <h3>Styles</h3>
+            <p>
+              <b>1.Portrait photography:</b> This style focuses on capturing people, often in posed or staged settings. 
+              The goal is to highlight the subject's personality and features, using techniques such as lighting and composition.
+            </p>
+            <p>
+              <b>2.Landscape photography:</b> This style focuses on capturing beautiful outdoor scenes, such as mountains, forests, and oceans.
+               It often involves using wide-angle lenses and capturing the natural light of the environment.
+            </p>
+            <p >
+              <b>3.Street photography:</b> This style involves capturing candid moments of everyday life in public places, often in urban environments. 
+              It requires quick reflexes and the ability to capture a moment in time.
+            </p>
+            <p>
+              <b>4.Fine art photography:</b> This style involves creating images that are meant to be viewed as art, often using abstract or surreal techniques.
+               It may involve manipulating the image in post-processing to achieve a specific effect.
+            </p>
+
+          <div class="work-imgs">
+               <img src="pexels-rachel-claire-4992637.jpg">
+               <img src="pexels-kaique-rocha-307847.jpg">
+          </div>
+          <h2>"Photography takes an instant out of time, altering life by holding it still."</h2>
+        </div>
+      </div>
+
+    <div class="section-two">
+        <h2>FOLLOW FOR MORE</h2>
+        <span>@julesmugabo_</span>
+        <div class="insta-imgs">
+          <div>
+            <img src="fineart.jpg">
+            <div class="icon-overlay flex">
+              <i class="fa fa-instagram"></i>
+            </div>
+          </div>
+          <div>
+            <img src="pexels-buwaneka-boralessa-748992.jpg">
+            <div class="icon-overlay flex">
+              <i class="fa fa-instagram"></i>
+            </div>
+          </div>
+          <div>
+            <img src="street.jpg">
+            <div class="icon-overlay flex">
+              <i class="fa fa-instagram"></i>
+            </div>
+          </div>
+          <div>
+            <img src="landscape.jpg" height="100%">
+            <div class="icon-overlay flex">
+              <i class="fa fa-instagram"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="social-media">
+          <a href="https://www.facebook.com/yourfacebookpage" id="fb"><i class="fa fa-facebook"></i></a>
+          <a href="https://www.twitter.com/yourtwitterpage" id="twt"><i class="fa fa-twitter"></i></a>
+          <a href="https://www.instagram.com/legendary.studioz" id="ig"><i class="fa fa-instagram"></i></a>
+          <a href="https://www.youtube.com/channel/UC0z5prKeeTvFeIajZShiOAA" id="yt"><i class="fa fa-youtube"></i></a>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 Legendary Studioz. All rights reserved.</p>
+        </div>
+    </footer>
+  </body>
+</html>

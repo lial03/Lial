@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/30ad5f6e47.js" crossorigin="anonymous"></script>
+        <script src="main.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Book our services</title>
+
+        <style>
+            *{
+                padding:0;
+                margin:0;
+                box-sizing: border-box;
+                font-family: Georgia, 'Times New Roman';
+            }
+            .header{
+                background: linear-gradient(rgba(89, 89, 93,0.8),rgba(89, 89, 93,0.8)),url(pexels-yulia-ilina-9463157.jpg) no-repeat center;
+                color:#111;
+                height: 100vh;
+                min-height: 500px;
+                background-size:cover;
+                object-fit: cover;
+            }
+            blockquote{
+                font-size: 40px;
+                font-weight: 400;
+                width: 60vw;
+                padding-top: 50px;
+                margin: 45px auto ;
+                text-align: center;
+            }
+            blockquote span{
+                font-size: 30px;
+                text-transform: uppercase;
+                font-weight: 400;
+                display: block;
+            }
+            .header p{
+                text-align: center;
+                font-size: 60px;
+                font-weight: 400px;
+                padding-top: 200px;
+                color:#111;
+                text-shadow:darkslategray 3px 3px 3px;
+                margin: 35px;
+            }
+            .booking form{
+                align-items: center;
+                text-align:justify;
+                font-size:25px;
+                padding-left: 600px;
+            }
+            .booking h1{
+                text-align: center;
+                font-size: 35px;
+                font-weight:550;
+                position:relative;
+                margin-bottom: 60px;
+                padding-bottom: 20px;
+                color:#A04000;
+            }
+            #btn{
+                font-size: 20px;
+                padding: 12px;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Navigation section-->
+        <div class="navbar">
+            <div class="max-width">
+                <div class="logo">
+                    <a href="index.html">
+                        <i class="fa fa-camera"></i>
+                        <span>Legendary Studioz</span></a>
+                </div>
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="booking.html">Booking</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <section class="header">
+            <p>
+                BOOK OUR SERVICES
+            </p>
+            <blockquote>
+                “Always render more and better service than is expected of you, no matter what your task may be.” 
+                <span>-Og Mandino</span>
+            </blockquote>
+        </section>
+
+        <section class="booking">
+            <h1>Booking Form</h1>
+            <form action="submit-form2.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required><br><br>
+                
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required><br><br>
+                
+                <label for="time">Time:</label>
+                <input type="time" id="time" name="time" required><br><br>
+
+                <label for="time">Address:</label>
+                <input type="address" id="address" name="address" required><br><br>
+                
+                <label for="requests">Requests:</label><br>
+                <textarea style="resize:none;" id="requests" name="requests" rows="4" cols="50"></textarea><br><br>
+                
+                <input id="btn" type="submit" value="Submit">
+            </form>
+        </section>
+
+        <!--Footer-->
+        <footer>
+            <div class="social-media">
+                <a href="https://www.facebook.com/yourfacebookpage" id="fb"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.twitter.com/yourtwitterpage" id="twt"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.instagram.com/legendary.studioz" id="ig"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.youtube.com/channel/UC0z5prKeeTvFeIajZShiOAA" id="yt"><i class="fa fa-youtube"></i></a>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Legendary Studioz. All rights reserved.</p>
+            </div>
+        </footer>
+    
+        </body>
+    </html>
