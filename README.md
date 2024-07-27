@@ -1,1 +1,1 @@
-Simple photography website
+
